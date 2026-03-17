@@ -5,8 +5,8 @@ import { createClient } from '@supabase/supabase-js';
 
 // 1. Initialize Supabase client
 // These variables must be set in your .env.local file or Antigravity environment variables
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
+const supabaseUrl = process.env.SUPABASE_URL || '';
+const supabaseKey = process.env.SUPABASE_KEY || '';
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 export default function LicensingDashboard() {
