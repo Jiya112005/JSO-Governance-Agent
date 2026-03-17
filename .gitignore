@@ -1,3 +1,4 @@
 api/.env
 .env.local
 backend
+frontend
